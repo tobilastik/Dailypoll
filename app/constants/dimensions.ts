@@ -9,3 +9,5 @@ export const screenHeight = (num: number) => {
 export const screenWidth = (num: number) => {
   return (num / 100) * width;
 };
+
+export const useDimensions = () => ({ width, height })

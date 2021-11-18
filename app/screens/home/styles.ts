@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
-import { white } from "../../constants/colors";
+import { blue, white } from "../../constants/colors";
+import { screenWidth } from "../../constants/dimensions";
 
 export const styles = StyleSheet.create({
   container: {
@@ -30,5 +31,28 @@ export const styles = StyleSheet.create({
   daysCompleted: {
       color: white,
       fontWeight: '400',
-  }
+  },
+  day: {
+      fontSize: 24,
+      fontWeight: '700',
+      marginVertical: 12
+  },
+  openpoll: {
+          backgroundColor: blue,
+          padding: 12,
+          margin: 6,
+          borderRadius: 8,
+          position: 'absolute',
+          bottom: 2,
+          width: screenWidth(94),
+          alignSelf: 'center',
+        },
+        dailypoll:{
+            color: white,
+            fontWeight: '400'
+        },
+        open:{
+            color: white,
+            fontWeight: '400'
+        }
 });
