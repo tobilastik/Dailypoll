@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     backgroundColor: dolphin,
     marginVertical: 6,
     borderRadius: 12,
-    padding: 19,
+    padding: 12,
   },
   duration: {
       marginLeft: 8

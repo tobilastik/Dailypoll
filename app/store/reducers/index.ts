@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import user from './user';
+import poll from './poll';
 
 const appReducer = combineReducers({
-  user,
+  poll,
 });
 
 export default appReducer;

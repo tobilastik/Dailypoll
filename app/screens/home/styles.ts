@@ -54,5 +54,22 @@ export const styles = StyleSheet.create({
         open:{
             color: white,
             fontWeight: '400'
+        },
+        response: {
+            fontSize: 16,
+            marginTop: 24,
+            marginBottom: 48,
+            fontWeight: '400'
+
+        },
+        noAnswer: {
+            fontSize: 16,
+            fontWeight: '400',
+            textDecorationLine: 'underline'
+
+        },
+        xText: {
+            fontSize: 24,
+            padding: 12
         }
 });
